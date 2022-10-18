@@ -7,7 +7,7 @@ public interface FoodMenu{
     public abstract void 牛排();//牛排
     public static final String COUNTRY="中国";
      public static final int a = 1;
-
+//ssssss
 }
 class M{
     int a =1;
