@@ -4,6 +4,7 @@ import com.xwj.hello.Hello;
 
 /**
  * @date 2022/9/5 - 15:37
+ * 1
  */
 public class Hello1 {
     public static void main(String[] args) {
