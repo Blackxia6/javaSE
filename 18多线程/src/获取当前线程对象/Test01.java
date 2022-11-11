@@ -8,17 +8,19 @@ public class Test01 {
         //这个代码出现在main方法当中，所以当前线程就是主线程
         Thread t = Thread.currentThread();
         System.out.println(t.getName());//main
-
+        System.out.println(t.getPriority());
         B b = new B();
         B b1 = new B();
         b.setName("1111");
         b1.setName("2222");
         b1.start();
         b.start();
-
+        System.out.println(b1.getPriority());
+        System.out.println(b.getPriority());
         C c = new C();
         Thread thread = new Thread(c);
         thread.start();
+        System.out.println(thread.getPriority());
 
     }
 }
